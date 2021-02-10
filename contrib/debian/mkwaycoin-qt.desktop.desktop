@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mkwaycoin
+Comment=Core wallet for Mkwaycoin P2P Cryptocurrency
+Exec=/usr/bin/mkwaycoin-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/mkwaycoin.png
+MimeType=x-scheme-handler/mkwaycoin;
+Categories=Application;Network;
+Name[en_US]=mkwaycoin-qt.desktop

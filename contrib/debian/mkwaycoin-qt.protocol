@@ -1,0 +1,11 @@
+[Protocol]
+exec=mkwaycoin-qt '%u'
+protocol=mkwaycoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

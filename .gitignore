@@ -1,0 +1,49 @@
+src/*.exe
+src/mkcoin
+src/mkwaycoin
+src/mkcoind
+src/mkwaycoind
+src/test_mkcoin
+src/test_mkwaycoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.mkcoin
+.mkwaycoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+mkcoin-qt
+mkwaycoin-qt
+MKCoin-Qt.app
+Mkwaycoin-Qt.app
+.qmake.stash
+mkwaycoin-qt_plugin_import.cpp
+
+# Unit-tests
+Makefile.test
+mkcoin-qt_test
+mkwaycoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+# mingw / Windows
+release/
+*.Debug
+*.Release
+
+!src/leveldb-*/Makefile
+mkwaycoin-qt
