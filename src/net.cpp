@@ -1199,10 +1199,14 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
+    {"mkwaycoin.space", "explorer.mkwaycoin.space"},
+    {"pools.mkwaycoin.space", "exchange.mkwaycoin.space"},
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
+    {"mkwaycoin.space", "explorer.mkwaycoin.space"},
+    {"pools.mkwaycoin.space", "exchange.mkwaycoin.space"},
     {NULL, NULL}
 };
 
@@ -1252,7 +1256,9 @@ void ThreadDNSAddressSeed()
 // Physical IP seeds: 32-bit IPv4 addresses: e.g. 178.33.22.32 = 0x201621b2
 unsigned int pnSeed[] =
 {
-    0x0
+    0x0100007f, 0x9600a8c0, 0x9700a8c0, 0x9800a8c0, 0x9900a8c0, 0x9500a8c0,
+    0xfd10555c,
+    
 };
 
 void DumpAddresses()
