@@ -3213,21 +3213,21 @@ bool LoadBlockIndex()
 
     if (fTestNet)
     {
-
+#ifdef TESTING
         hashGenesisBlock = uint256("00001ffce01c611524dfb76103bf2766651719c3a049d7eb22a6a68b0aada9f5");
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 15);
         nStakeMinAge = 60 * 60 * 2; // test net min age is 120 minutes
         nCoinbaseMaturity = 30;
         bnInitialHashTarget = CBigNum(~uint256(0) >> 15);
         nModifierInterval = 60 * 10; // test net modifier interval is 10 minutes
-
+#else
         hashGenesisBlock = hashGenesisBlockTestNet;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 19);
         nStakeMinAge = 60 * 60 * 2; // test net min age is 120 minutes
         nCoinbaseMaturity = 30;
         bnInitialHashTarget = CBigNum(~uint256(0) >> 29);
         nModifierInterval = 60 * 10; // test net modifier interval is 10 minutes
-
+#endif
     }
 
     printf("%s Network: genesis=0x%s nBitsLimit=0x%08x nBitsInitial=0x%08x nStakeMinAge=%d nCoinbaseMaturity=%d nModifierInterval=%d\n",
@@ -3285,7 +3285,7 @@ bool InitBlockIndex() {
             block.nNonce   = 386577;
         }
 
-
+#ifdef TESTING
         CBigNum bnTarget;
         bnTarget.SetCompact(block.nBits);
         while (block.GetHash() > bnTarget.getuint256())
@@ -3295,7 +3295,7 @@ bool InitBlockIndex() {
                        block.GetHash().ToString().c_str());
             block.nNonce++;
         }
-
+#endif
 
         //// debug print
         uint256 hash = block.GetHash();
