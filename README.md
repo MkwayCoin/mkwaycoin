@@ -1,5 +1,6 @@
 Mkwaycoin Official Development Repo
 ==================================
+[![Build Status](https://travis-ci.com/Mkwaycoin/mkwaycoin.svg?branch=master)](https://travis-ci.com/Mkwaycoin/mkwaycoin)
 
 ### What is Mkwaycoin?
 [Mkwaycoin](https://mkwaycoin.space) (abbreviated MKW), also known as SOL-coin .
