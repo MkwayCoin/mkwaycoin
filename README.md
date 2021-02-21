@@ -40,6 +40,7 @@ Mkwaycoin Official Development Repo
 [Forum](http://forum.mkwaycoin.space),
 [Intro & Important Links](http://forum.mkwaycoin.space)
 * [Explorer](http://explorer.mkwaycoin.space),
+* [Exchange](https://exchange.mkwaycoin.space),
 * [Pools](http://pools.mkwaycoin.space),
 * [Discord](https://discord.gg/pyT5pt8),
 * [Twitter](https://twitter.com/MkwayC),
