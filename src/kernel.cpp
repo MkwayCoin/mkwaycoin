@@ -14,15 +14,15 @@ using namespace std;
 unsigned int nProtocolV03SwitchTime     = 1611980760;
 unsigned int nProtocolV03TestSwitchTime = 1611980760;
 // Protocol switch time of v0.4 kernel protocol
-unsigned int nProtocolV04SwitchTime     = 1643516760;
-unsigned int nProtocolV04TestSwitchTime = 1643516760;
+unsigned int nProtocolV04SwitchTime     = 1612130400;
+unsigned int nProtocolV04TestSwitchTime = 1612130400;
 // Protocol switch time of v0.5 kernel protocol
-unsigned int nProtocolV05SwitchTime     = 1738195200;
-unsigned int nProtocolV05TestSwitchTime = 1738195200;
+unsigned int nProtocolV05SwitchTime     = 1612648800;
+unsigned int nProtocolV05TestSwitchTime = 1612648800;
 // Protocol switch time of v0.6 kernel protocol
 // supermajority hardfork: actual fork will happen later than switch time
-const unsigned int nProtocolV06SwitchTime     = 1895961600; // Wed 30 Jan 00:00:00 UTC 2030
-const unsigned int nProtocolV06TestSwitchTime = 1508198400; // Wed 30 Jan 00:00:00 UTC 2030
+const unsigned int nProtocolV06SwitchTime     = 1613253600; // Sun 14 Feb 00:00:00 UTC 2021
+const unsigned int nProtocolV06TestSwitchTime = 1613253600; // Sun 14 Feb 00:00:00 UTC 2021
 
 
 // Modifier interval: time to elapse before new modifier is computed
