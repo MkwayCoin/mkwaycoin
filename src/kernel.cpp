@@ -1,4 +1,4 @@
-// Copyright (c) 2012-2017 The Mkwaycoin developers
+// Copyright (c) 2019-2021 The Mkwaycoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
