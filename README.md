@@ -21,7 +21,7 @@ Mkwaycoin Official Development Repo
  * Mkwaycoin uses SHA-256 algorithm for Proof-of-Work mining.
  * The PoW algorithm is used to spread the distribution of new coins.
  * Proof-of-Stake is used to secure the network.
- * Max POW/POS: 1 coin per block
+ * Max POW: 1 coin per block
  * Transaction fee:Static 0.01 MKW/kb
  * Estimated transaction bandwidth: 1-18 tx/sec
  * Retarget difficulty: 6 hours
