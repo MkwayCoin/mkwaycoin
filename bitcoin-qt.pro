@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = mkwaycoin-qt
 macx:TARGET = "Mkwaycoin-Qt"
-VERSION = 0.3.0
+VERSION = 0.3.1
 INCLUDEPATH += src src/json src/qt
 QT += network core
 greaterThan(QT_MAJOR_VERSION, 4):QT+=widgets
