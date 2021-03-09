@@ -18,7 +18,7 @@
 #define MKWAYCOIN_VERSION_MAJOR       0
 #define MKWAYCOIN_VERSION_MINOR       3
 #define MKWAYCOIN_VERSION_REVISION    0
-#define MKWAYCOIN_VERSION_BUILD       0
+#define MKWAYCOIN_VERSION_BUILD       1
 
 // Copyright year (2009-this)
 // Todo: update this when changing our copyright comments in the source
