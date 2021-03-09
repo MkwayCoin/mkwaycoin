@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.3.0
+!define VERSION 0.3.1
 !define COMPANY "Mkwaycoin project"
 !define URL http://github.com/MkwayCoin/mkwaycoin/
 
