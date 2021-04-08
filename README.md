@@ -18,7 +18,7 @@ Mkwaycoin Official Development Repo
  * Max Stake: 90 days
  * Consensus algorithm:PoS
  * Distribution method:PoW block reward / PoS block reward
- * Mkwaycoin uses SHA-256 algorithm for Proof-of-Work mining.
+ * Mkwaycoin uses SHA-256 and Scrypt algorithm for Proof-of-Work mining.
  * The PoW algorithm is used to spread the distribution of new coins.
  * Proof-of-Stake is used to secure the network.
  * Max POW: 1 coin per block
