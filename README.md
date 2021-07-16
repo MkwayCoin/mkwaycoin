@@ -13,15 +13,20 @@ Mkwaycoin Official Development Repo
 
  * Ticker: MKW
  * Block size:1MB
- * Block Time: 1 minute
+ * Block Time: 30 seconds
  * Min Stake: 24 hours
  * Max Stake: 90 days
  * Consensus algorithm:PoS
  * Distribution method:PoW block reward / PoS block reward
- * Mkwaycoin uses Scrypt algorithm for Proof-of-Work mining.
+ * Mkwaycoin uses SHA256d algorithm for Proof-of-Work mining.
  * The PoW algorithm is used to spread the distribution of new coins.
  * Proof-of-Stake is used to secure the network.
+ * Proof-of-Work reward formula is:coins = (difficulty * 2^32) / (coinage/coins)
+ * PoS Reward:1% annual interest.
  * Max POW: 1 coin per block
+ * Proof-of-Work reward formula is: difficulty == (1 / (mint per block)) ** 4
+ * Proof-of-Work coin mint rate is a function of difficulty, for every 16x in difficulty mint rate is halved.
+ * Annual inflation : 1%/year
  * Transaction fee:Static 0.01 MKW/kb
  * Estimated transaction bandwidth: 1-18 tx/sec
  * Retarget difficulty: 6 hours
